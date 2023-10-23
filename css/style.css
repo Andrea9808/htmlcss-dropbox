@@ -13,20 +13,28 @@
 
 ul>li{
     text-decoration: none;
+    list-style: none;
 }
 
-p{
-    font-weight: 200;
-}
+/* button{
+    background-color: blue;
+    color: white;
+    border: transparent;
+    text-align: center;
+    align-items: center;
+} */
+
 
 /*Stili Header (navbar) */
 
 .container_navbar_header{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: white;
     justify-content: space-between;
-    align-items: center;
+    position: fixed;
+    z-index: 500;
+    top: 0
 }
 
 .container_navbar_header img{
@@ -70,7 +78,7 @@ p{
 }
 
 .main_header img{
-    width: 125%;
+    width: 100%;
 }
 
 
@@ -89,3 +97,139 @@ h1{
     padding-top: 70px;
     font-size: 30px;
 }
+
+
+/* stili main, parte iniziale */
+
+
+.title_input{
+    height: 100px;
+    width: 60%;
+    margin: 90px auto;
+}
+
+.title_input h3{
+   font-size: 25px;
+   padding-bottom: 40px;
+}
+
+input{
+    margin-right: 10px;
+}
+
+/* stili main colonne account */
+
+.container_account{
+    justify-content: center;
+}
+
+.col{
+    width: calc(55%/3);
+    height: 680px;
+    margin: 0 20px;
+    border: 1px solid rgb(212, 203, 203);
+}
+
+#singolo,#team,#azienda{
+    text-align: center;
+    border-bottom: 1px solid rgb(212, 203, 203);
+    padding: 10px;
+}
+
+#user{
+    display: grid;
+    font-size: 12px;
+}
+
+.botton_board_short{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(212, 203, 203);
+}
+
+div h6{
+    font-weight: 100;
+}
+
+.description_user{
+    padding: 25px 40px;
+}
+
+.description_user ,h4 ,h6{
+    padding-top: 10px;
+}
+
+.description_user,#user,button,span,li{
+    padding-top: 10px;
+}
+
+.punti_salienti{
+    margin-top: 60px;
+    font-size: 12px;
+}
+.punti_salienti>span{
+    margin-bottom: 10px;
+}
+
+.punti_salienti ul li:before{
+        content: '✓';
+        color: blue;
+        margin-right: 5px;
+}
+
+.punti_salienti  ul, li{
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    }
+
+    /* FINE STILI COLONNE */
+
+    /* COLONNA ORIZZONTALE */
+
+    .horizontal_col{
+        width: 60%;
+        height: 180px;
+        border: 1px solid rgb(212, 203, 203);
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .contact{
+        justify-content: space-around;
+    }
+
+    .contact h6{
+        font-weight: 100;
+    }
+
+    #para_col_hor{
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    /* PARAGRAFO PARTNER */
+
+
+    .container_partner{
+        width: 60%;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    
+
+    .image_partner{
+        width: 40%;
+    }
+
+    .image_partner>img{
+        width: 100%;
+    }
+
+    .info_text{
+        width: 40%;
+        font-size: 13px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
