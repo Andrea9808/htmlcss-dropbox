@@ -432,125 +432,113 @@ input{
         margin-top: 100px;
     }
 
-    .question{
-    margin-top: 60px;
-    border-top: 1px solid black;
-    padding-top: 50px;
-    justify-content: space-between;
-}
 
-.fa-chevron-down{
-    margin-right: 50px;
-}
-
-/* STILI DEL FOOTER (LISTA) */
-
-.title_question{
-    padding-bottom: 50px;
-}
-
-.accordion{
-    margin: 10px auto;
-    width: 100%;
-    padding: 0;
-}
-
-.accordion li{
-    list-style: none;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-
-.accordion li label{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.accordion li label span{
-    transform: rotate(90deg);
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.accordion label + input[type="radio"]{
-    display: none;
-}
-
-
-.accordion .content{
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-
-.accordion label + input[type="radio"]:checked + .content{
-    max-height: 400px;
-}
-
-
-
-.container_footer{
-    width: 100%;
-    margin-top: 100px;
-    height: 500px;
-    background-color: black;
-}
-
-
-.row_footer{
-    width: 80%;
-    justify-content: center;
-    padding-top: 50px;
-    margin: 0 auto;
-}
-
-
-.list{
-    width: calc(60%/5);
-    height: 300px;
- 
-}
-
-.list ul{
-    color: white;
-    font-size: 12px;
-    margin-top: 20px;
-    padding: 0;
-}
-
-.line_footer{
-    width: 90px;
-}
-
-.list li{
-     padding-top: 5px;
+    .accordion{
+        margin: 10px auto;
+        width: 100%;
+        padding: 0;
     }
 
-#title_list{
-    color: white;
-    padding-top: 30px;
-}
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
 
-li>a{
-    text-decoration: none;
-    color: white;
-}
 
-.line_footer{
-    margin-top: 60px;
-}
+    .accordion li label{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+    }
 
-#lang{
-    color: white;
-    padding-top: 20px;
-    font-size: 10px;
-}
+    .accordion li label span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .accordion label + input[type="radio"]{
+        display: none;
+    }
+
+
+    .accordion .content{
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .accordion label + input[type="radio"]:checked + .content{
+        max-height: 400px;
+    }
+
+    /* STILI DEL FOOTER (LISTA) */
+
+    .title_question{
+        padding-bottom: 50px;
+    }
+
+
+    .container_footer{
+        width: 100%;
+        margin-top: 100px;
+        height: 500px;
+        background-color: black;
+    }
+
+
+    .row_footer{
+        width: 80%;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
+
+    .list{
+        width: calc(60%/5);
+        height: 300px;
+    
+    }
+
+    .list ul{
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .line_footer{
+        width: 90px;
+    }
+
+    .list li{
+        padding-top: 5px;
+        }
+
+    #title_list{
+        color: white;
+        padding-top: 30px;
+    }
+
+    li>a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .line_footer{
+        margin-top: 60px;
+    }
+
+    #lang{
+        color: white;
+        padding-top: 20px;
+        font-size: 10px;
+    }
