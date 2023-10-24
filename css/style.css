@@ -16,13 +16,46 @@ ul>li{
     list-style: none;
 }
 
-/* .button_white{
+p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* BOTTONI */
+
+.button_blu{
     background-color: blue;
     color: white;
     border: transparent;
+    padding: 8px;
+}
+
+.button_white{
+    background-color: white;
+    color: black;
+    border: transparent;
     text-align: center;
-    align-items: center;
-} */
+    padding: 8px;
+}
+
+.button_partner{
+    border: solid 0.5px rgb(218, 210, 210);
+}
+
+.big_button{
+    height: 35px;
+    margin-top: 15px;
+}
+
+.button_col{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.button_head{
+    margin-right: 10px;
+}
 
 
 /*Stili Header (navbar) */
@@ -37,6 +70,7 @@ ul>li{
     z-index: 500;
     top: 0
 }
+
 
 .container_navbar_header img{
     margin-left: 20px;
@@ -89,8 +123,7 @@ h1{
     margin-left: 50px;
 }
 
-#description,p,button{
-    margin-top: 15px;
+#description{
     font-size: 13px;
 }
 
@@ -104,7 +137,6 @@ h1{
 
 
 .title_input{
-    height: 100px;
     width: 60%;
     margin: 90px auto;
 }
@@ -147,19 +179,16 @@ input{
     border-bottom: 1px solid rgb(212, 203, 203);
 }
 
-div h6{
-    font-weight: 100;
-}
 
 .description_user{
     padding: 25px 40px;
 }
 
-.description_user ,h4 ,h6{
+.description_user,h4,h6{
     padding-top: 10px;
 }
 
-.description_user,#user,button,span{
+.description_user,#user,span{
     padding-top: 10px;
 }
 
@@ -172,7 +201,11 @@ div h6{
 }
 
 .punti_salienti ul li:before{
-        content: '✓';
+        content: "\f00c"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: calc( var(--icon-space) * -1 );
+        width: var(--icon-space);
         color: blue;
         margin-right: 5px;
 }
