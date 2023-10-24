@@ -275,14 +275,12 @@ div h6{
     .row_enter{
         width: calc(100vw/3);
         height: calc(50vw/2);
-        border: 1px solid black;
         flex-wrap: wrap;
     }
 
     .enterprise{
         width: calc(100%/2);
         height: calc(100%/2);
-        border: 1px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -290,7 +288,9 @@ div h6{
 
     .enterprise img{
         width: 50%;
+        filter: invert(100%);
     }
+
 
     .review{
         width: 40%;
@@ -312,5 +312,33 @@ div h6{
     /* BACKGROUND COLOR */
 
     .oneimg{
-        background-color: green;
+        background-color: #82f382;
+    }
+
+    .twoimg{
+        background-color: #762222;
+    }
+
+    .threeimg{
+        background-color: #118ece9e;
+    }
+
+    .fourimg{
+        background-color: #ff0000;
+    }
+
+    .fiveimg{
+        background-color: #c50202;
+    }
+
+    .siximg{
+        background-color: #b1cfda;
+    }
+
+    .sevenimg{
+        background-color: #05056c;
+    }
+
+    .eightimg{
+        background-color: #f7d709;
     }
