@@ -239,13 +239,18 @@ div h6{
     /* STILI DELLE 6 COLONNE DROPBOX BUSINESS */
 
     .container_business{
-        width: 100%;
+        width: 60%;
         height: 600px;
-        justify-content: center;
+        margin: 0 auto;
     }
 
+    .container_business a{
+        font-size: 10px;
+    }
+
+
     .card{
-        width: calc(55%/3);
+        width: calc(80%/3);
         height: 500px;
         margin: 0 20px;
     }
@@ -254,4 +259,58 @@ div h6{
         width: 100%;
     }
       
+    #title_business{
+        margin-bottom: 60px;
+    }
+
     
+    /* STILI MEMBRI DROPBOX */
+
+    .container_enterprise{
+        width: 100%;
+        height: 600px;
+        background-color: #99c5d0bd;
+    }
+
+    .row_enter{
+        width: calc(100vw/3);
+        height: calc(50vw/2);
+        border: 1px solid black;
+        flex-wrap: wrap;
+    }
+
+    .enterprise{
+        width: calc(100%/2);
+        height: calc(100%/2);
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .enterprise img{
+        width: 50%;
+    }
+
+    .review{
+        width: 40%;
+        height: 64%;
+        padding: 80px;
+        background-color: rgb(224, 216, 206);
+    }
+
+    #designit{
+        width: 40%;
+    }
+
+    .line_designit{
+        color: black;
+        width: 80px;
+        margin-top: 15px;
+    }
+
+    /* BACKGROUND COLOR */
+
+    .oneimg{
+        background-color: green;
+    }
