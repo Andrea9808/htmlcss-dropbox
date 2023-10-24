@@ -22,7 +22,7 @@ p{
     margin-bottom: 15px;
 }
 
-/* BOTTONI */
+/* BOTTONI e ANIMAZIONI*/
 
 .button_blu{
     background-color: blue;
@@ -55,6 +55,12 @@ p{
 
 .button_head{
     margin-right: 10px;
+    width: 100px;
+}
+
+.enterprise:hover{
+    filter: opacity(0.5);
+    border: 10px solid white;
 }
 
 
@@ -67,6 +73,7 @@ p{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    border-bottom: 1px solid black;
     z-index: 500;
     top: 0
 }
@@ -333,6 +340,7 @@ input{
         padding: 80px;
         background-color: rgb(224, 216, 206);
         display: flex;
+        height: 384px;
         overflow-y: auto;
     }
 

@@ -31,6 +31,11 @@ a:hover{
     text-decoration: underline;
 }
 
+.enterprise:hover{
+    filter: opacity(0.5);
+    border: 10px solid white;
+}
+
 /* BOTTONI */
 
 .button_blu{
@@ -68,6 +73,7 @@ a:hover{
 
 .button_head{
     margin-right: 10px;
+    width: 100px;
 }
 
 
@@ -80,6 +86,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    border-bottom: 1px solid black;
     z-index: 500;
     top: 0
 }
@@ -95,7 +102,7 @@ a:hover{
 
 .container_navbar_header ul>li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 /*Stili Header (main) */
@@ -319,6 +326,7 @@ input{
     #title_business{
         margin-bottom: 60px;
     }
+    
 
     
     /* STILI MEMBRI DROPBOX */
@@ -353,6 +361,7 @@ input{
         width: 40%;
         padding: 80px;
         background-color: rgb(224, 216, 206);
+        height: 384px;
         overflow-y: auto;
     }
 
