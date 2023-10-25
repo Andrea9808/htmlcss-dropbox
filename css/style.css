@@ -312,7 +312,7 @@ input{
 
     .container_enterprise{
         width: 100%;
-        max-height: 384px;
+        height: calc(50vw/2);
         /* height: 600px;
         background-color: #99c5d0bd; */
     }
