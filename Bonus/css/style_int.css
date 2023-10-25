@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul>li{
+    list-style: none;
+}
+
+p{
+    padding-top: 20px;
+}
+
+h5{
+    padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    max-width: 760px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/*Stili Header (navbar) */
+
+.container_navbar_header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    z-index: 500;
+    top: 0
+}
+
+
+/* STILI DROPDOWN */
+
+.menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    background-color: white;
+}
+
+.menu a{
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu .has-children:hover .sub-menu{
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+}
+
+.sub-menu li{
+    width: 200px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.sub-menu a{
+    color: black;
+}
+
+.sub-menu a:hover{
+    background-color: rgb(93, 93, 223);
+    color: black;
+}
+
+/* FINE STILI DROPDOWN */
+
+.container_navbar_header a{
+    color: black;
+}
+
+.container_navbar_header img{
+    margin-left: 20px;
+}
+
+.container_navbar_header ul>li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* STILI MAIN */
+
+    .container_img{
+        width: 100%;
+    }
+
+    .img_main{
+        background-image: url(../../Dropbox.webp);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        filter: contrast(0.5);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description{
+        width: 50%;
+        height: 300px;
+        filter: none;
+    }
+
+    button{
+        padding: 15px;
+        background-color: blue;
+        border: transparent;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .main_button{
+        margin-top: 50px;
+    }
+
+    .paragraph a{
+        padding-left: 50px;
+        color: gray;
+    }
+
+    button:hover{
+        filter: brightness(0.5) opacity(0.5)
+    }
+
+
+
+    .description p{
+        padding-top: 20px;
+    }
+
+    .paragrafo_sezione_one{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(240, 226, 210);
+    }
+
+    .paragrafo_sezione_two{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(240, 226, 210);
+    }
+
+
+    .paragraph{
+        padding: 70px;
+    }
+
+
+    /* STILI DEL FOOTER (LISTA) */
+
+    .container_footer{
+        width: 100%;
+        background-color: black;
+    }
+
+
+    .row_footer{
+        width: 80%;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
+
+    .list{
+        width: calc(60%/5);
+        height: 300px;
+    
+    }
+
+    .list ul{
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .line_footer{
+        width: 90px;
+    }
+
+    .list li{
+        padding-top: 5px;
+        }
+
+    #title_list{
+        color: white;
+        padding-top: 30px;
+    }
+
+    li>a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .line_footer{
+        margin-top: 60px;
+    }
+
+    #lang{
+        color: white;
+        padding-top: 20px;
+        font-size: 10px;
+    }
