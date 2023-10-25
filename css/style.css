@@ -313,8 +313,6 @@ input{
     .container_enterprise{
         width: 100%;
         height: calc(50vw/2);
-        /* height: 600px;
-        background-color: #99c5d0bd; */
     }
 
     .row_enter{
